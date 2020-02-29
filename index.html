@@ -1,0 +1,147 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Upwork</title>
+	<link rel="stylesheet" type="text/css" href="animate.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+		.navbar-inverse {
+			background-color: white;
+			border-color: white;
+		}
+		
+		.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+			background-color: white;
+			/* border-color: #8c8c8c; */
+		}
+		.btn-default:hover {
+		background-color: white;
+		}
+	  .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+			background-color:white;
+			
+		}
+		.navbar-inverse .navbar-toggle .icon-bar {
+			background-color: black;
+		}
+		.dropdown-menu {
+			min-width: 340px;'
+			border-right:0;
+			border-top:0;
+			border-bottom:0;
+			margin:0;
+			
+		}
+		.navbar-header img{
+			height:60px;
+			width:65px;
+			}
+			.lom{
+				display:none;
+			}
+			#we{
+				display:none;
+			}
+		@media screen and (max-width: 760px) {
+			.navbar-header img{
+				height:60px;
+				display: block;
+				   margin: 0 auto;
+				   width:75px;
+			}
+			.navbar-inverse .navbar-toggle {
+				float: left;
+    			margin-left: 10px;
+			}
+			.lom{
+				display:block;
+				float:right;
+				margin-right: 10px;
+				margin-top:15px;
+			}
+		}
+  </style>
+</head>
+<body>
+	<header class="head1"> 
+		<nav id="no" class="navbar navbar-inverse">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button style="border:0" type="button" class="navbar-toggle mn"  data-toggle="collapse" data-target="#myNavbar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span> 
+				
+			  </button>
+			  <a  class="lom fa fa-search" style="cursor:pointer;font-size:20px;text-decoration: none;">
+				
+			  </a>
+			  <img id="img" src="upwork-logo.png" alt="">
+		<div class="container-fluid">
+			<div class="col-md-10 input-group" style="margin-top:10px" id="we">
+				<div class="input-group-btn">
+				  <button type="button" class="btn btn-default dropdown-toggle" style="color:#64B539;border-right:0;border-radius:0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					  <span class="fa fa-search"></span> 
+					  <span class="caret"></span>
+					</button>
+				  <ul class="dropdown-menu">			
+					<li style="border-left:4px solid #78DC50"><a href="#" style="color:#78DC50">Professionals & Agencies</a></li>
+					<li><a href="#">Job</a></li>
+					
+				  </ul>
+				</div>
+				<input type="text" class="form-control" placeholder="Find Freelancers & Agencies" style="border-left:0;border-radius:0">
+			  </div>
+		</div>
+			  <!-- <span style="color:#64B539">up</span>work -->
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<div class="col-md-4 col-sm-3">
+					<div class="input-group" style="margin-top:10px" id="sm">
+						<div class="input-group-btn">
+						  <button type="button" class="btn btn-default dropdown-toggle" style="color:#64B539;border-right:0;border-radius:0" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							  <span class="fa fa-search"></span> 
+							  <span class="caret"></span>
+							</button>
+						  <ul class="dropdown-menu">			
+							<li style="border-left:4px solid #78DC50"><a href="#" style="color:#78DC50">Professionals & Agencies</a></li>
+							<li><a href="#">Job</a></li>
+							
+						  </ul>
+						</div>
+						<input type="text" class="form-control" placeholder="Find Freelancers & Agencies" style="border-left:0;border-radius:0">
+					  </div>
+
+					 
+				</div>
+			  <ul class="nav navbar-nav navbar-right">
+				<li><a href="#">HOW IT WORKS</a></li>
+				<li><a href="#">LOG IN</a></li>
+				<li><a href="#"></span> SIGN UP</a></li>
+				<li><a href="#" style="padding:5px 10px;background-color:#6FDA44;color:white;margin-top:10px"> Post a Job</a></li>
+				
+			  </ul>
+			  
+			</div>
+		  </div>
+	</nav>
+		</header>
+	
+<script>
+	$( document ).ready(function() {
+		$(".lom").click(function(){
+        $("#we").css({"position": "absolute", "top": "0","right":'30px',"left":'10px',"display":'block'});
+    });
+	$(".lom").click(function(){
+        $("#we").css({"position": "absolute", "top": "0","right":'30px',"left":'10px',"display":'block'});
+    });
+	
+	});
+</script>
+</body>
+</html>

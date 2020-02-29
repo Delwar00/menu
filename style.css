@@ -1,0 +1,41 @@
+
+.head1 {
+	background-color:green;
+}
+.logo-area img {
+	height:30px;
+	width:30px;
+}
+.logo-area {
+		padding-top:20px;
+}
+.social-area ul li a {
+	background-color:white;
+	padding:5px;
+}
+.social-area ul {
+	padding-top:23px;
+		
+}
+#no.navbar {
+	margin-bottom:0;
+	border-radius:0;
+}
+.item img{
+	width:100%;
+	min-height:250px;
+	max-height:450px;
+}
+@media screen and (max-width: 480px) {
+	.col-xs-12 h2 {
+		text-align:center;
+		font-size:60px;
+	}
+	.head {
+		/* background:red; */
+	}
+	#no.navbar-inverse {
+		/* background:red; */
+	}
+
+}
